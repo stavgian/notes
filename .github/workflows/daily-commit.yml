@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # 08:00 Europe/Berlin in summer (UTC+2). Use 7 in winter if you care.
+    - cron: "0 6 * * 1-5"  # 08:00 Europe/Berlin in summer (UTC+2). Use 7 in winter if you care.
   workflow_dispatch: {}
 
 permissions:
